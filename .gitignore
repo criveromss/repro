@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Images téléchargées du site Repromoselle
+/public/images/services/imprimerie/*
+/public/images/services/plv-exposition/*
+/public/images/services/signaletique/*
+/public/images/services/objets-publicitaires/*
+/public/images/services/reprographie/*
+# Garder les fichiers .gitkeep pour conserver la structure des dossiers
+!public/images/services/imprimerie/.gitkeep
+!public/images/services/plv-exposition/.gitkeep
+!public/images/services/signaletique/.gitkeep
+!public/images/services/objets-publicitaires/.gitkeep
+!public/images/services/reprographie/.gitkeep
